@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+Actions=runBlackbox;
+MimeType=application/x-executable;
+X-KDE-AuthorizeAction=shell_access
+Icon=com.raggesilver.BlackBox
+
+[Desktop Action runBlackbox]
+Name=Run in Blackbox
+Icon=com.raggesilver.BlackBox
+TryExec=blackbox
+Exec=blackbox --command %f

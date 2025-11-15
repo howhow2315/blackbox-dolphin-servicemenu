@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+Actions=openBlackboxHere;
+MimeType=inode/directory;
+X-KDE-AuthorizeAction=shell_access
+Icon=com.raggesilver.BlackBox
+
+[Desktop Action openBlackboxHere]
+Name=Open Blackbox here
+Icon=com.raggesilver.BlackBox
+TryExec=blackbox
+Exec=blackbox --working-directory %f
