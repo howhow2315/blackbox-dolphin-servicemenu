@@ -40,5 +40,5 @@ mkdir -p "$servicemenus_dir"
 files=("blackbox-run-file.desktop" "blackbox-open-here.desktop")
 for file in "${files[@]}"; do
     filepath="$servicemenus_dir/$file"
-    [[ ! -f "$filepath" ]] && _silently curl -fL "$repo/raw/main/$file" -o "$filepath"
+    [[ ! -f "$filepath" ]] && _silently curl -fL "$repo/raw/main/$file" -o "$filepath" && chmod +x "$filepath"
 done
