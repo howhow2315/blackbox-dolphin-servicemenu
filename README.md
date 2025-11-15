@@ -14,6 +14,11 @@ curl -fL https://github.com/howhow2315/blackbox-dolphin-servicemenu/raw/main/ins
 curl -fL https://github.com/howhow2315/blackbox-dolphin-servicemenu/raw/main/uninstall.sh | sh # Uninstall
 ```
 
+Installs extensions at
+```
+~/.local/share/kio/servicemenus/
+```
+
 ----
 
 This repository is licensed under the MIT License (see `LICENSE`).
